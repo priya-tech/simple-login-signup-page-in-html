@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <style>
+  h1{
+    text-align:center;
+    background-color: #4d4dff;
+  }
+    a{
+      color:blue;
+      cursor:pointer;
+    }
+    b{
+      font-size:20px;
+    }
+    body{
+    border-style: solid;
+    border-color: black;
+    border-width:1px;
+    width:500px;
+    }
+    input[type=text], input[type=password],input[type=email] {
+      width: 90%;
+      padding: 16px;
+      margin: 5px 0 22px 0;
+      display: block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+
+    .register{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    }
+    .register:hover{
+      background-color: green;
+    }
+
+
+  </style>
+  <title>Sign Up</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <div class=signup>
+    <p>Please fill the below details to craete the new account</p>
+  <label for="username"><b>User Name</b></label><br>
+<input type="text" placeholder="Enter Username" name="username" required><br>
+<label for="email"><b>Email</b></label><br>
+<input type="email" placeholder="Enter Email" name="email" required><br>
+<label for="password"><b>Password</b></label><br>
+<input type="password" placeholder="Enter Password" name="password" required ><br>
+<label for="rptpas"><b>Repeat Password</b></label><br>
+<input type="password" placeholder="Repeat Password" name="rptpas" required >
+<label><input type="checkbox" checked="checked" name="remember"> Remember me</label><br>
+</div>
+<hr>
+<button type="submit" class="register">Register</button>
+<p>Already have an account <a href=login.html>Sign In</a></p>
+</body>
+</html>
